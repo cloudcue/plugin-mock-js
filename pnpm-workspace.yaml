@@ -1,0 +1,6 @@
+packages:
+  - .
+  - ux
+
+overrides:
+  '@cloudcue/sdk': link:../../cloudcue-client/packages/sdk

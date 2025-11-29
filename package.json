@@ -1,22 +1,31 @@
 {
   "name": "@cloudcue/plugin-mock-js",
   "version": "1.0.5",
-  "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cloudcue/plugin-mock-js.git"
-  },
-  "author": "",
+  "description": "JavaScript mock plugin for CloudCue testing",
+  "author": "Nick <nlaurie@metafig.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cloudcue/plugin-mock-js/issues"
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js"
+    }
   },
-  "homepage": "https://github.com/cloudcue/plugin-mock-js#readme",
   "directories": {
     "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudcue/cloudcue-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudcue/cloudcue-plugins/issues"
+  },
+  "homepage": "https://github.com/cloudcue/cloudcue-plugins#readme",
+  "dependencies": {
+    "@cloudcue/sdk": "file:../../cloudcue-client/packages/sdk"
   }
 }

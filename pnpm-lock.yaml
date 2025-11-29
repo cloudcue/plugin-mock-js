@@ -1,0 +1,16 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  '@cloudcue/sdk': link:../../cloudcue-client/packages/sdk
+
+importers:
+
+  .:
+    dependencies:
+      '@cloudcue/sdk':
+        specifier: link:../../cloudcue-client/packages/sdk
+        version: link:../../cloudcue-client/packages/sdk

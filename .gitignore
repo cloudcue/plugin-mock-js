@@ -1,0 +1,17 @@
+# standard
+node_modules
+*.log
+
+# project specific
+build
+lib
+dist
+artifacts
+stats.html
+
+.DS_Store
+.idea/
+
+.env
+.env.local
+.env.*.local
